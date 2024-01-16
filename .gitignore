@@ -1,0 +1,131 @@
+**/__pycache__
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media
+
+# Secret key
+*.secret_key
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# PyInstaller
+__pycache__/
+dist/
+build/
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# SASS
+.sass-cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Virtualenv
+venv/
+ENV/
+
+# Science/Research
+*.ipynb
+*.nbconvert.json
+*.ipynb_checkpoints/
+
+# C extensions
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# password
+settings.py
+
+
