@@ -8,9 +8,9 @@ import logging
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
 # 设置用户属性, 包括 secret_id, secret_key, region 等
-tmp_secret_id = 'AKIDwRt9Mk1DlEb0HXgfSCvY1NjyFcrskpZI'     # 临时密钥的 SecretId
-tmp_secret_key = '5HViu8Mds5ADGJIhe5n870oXQI3c5bVK'   # 临时密钥的 SecretKey
-region = 'ap-guangzhou'      # 替换为用户的 region
+tmp_secret_id = 'xxxxxx'     # 临时密钥的 SecretId
+tmp_secret_key = 'xxxxxx'   # 临时密钥的 SecretKey
+region = 'xxxxx'      # 替换为用户的 region
 
 config = CosConfig(Region=region, SecretId=tmp_secret_id, SecretKey=tmp_secret_key)
 client = CosS3Client(config)
